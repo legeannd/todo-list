@@ -1,2 +1,8 @@
 
 env/
+
+\.vscode/
+
+TodoList/TodoList/__pycache__/
+
+TodoList/todos/__pycache__/
