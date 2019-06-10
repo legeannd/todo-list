@@ -1,0 +1,10 @@
+<h1>teste</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {% for field in form %}
+        <p style="font-size:2em; color: red">{{field.name}}</p>
+        {{field}}
+    {% endfor %}
+    <input type="submit" name="enviar" value="enviar">
+</form>
